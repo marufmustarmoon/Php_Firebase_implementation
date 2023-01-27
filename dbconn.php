@@ -6,6 +6,6 @@ use Kreait\Firebase\Factory;
 
 $factory = (new Factory())
     ->withProjectId('data.json')
-    ->withDatabaseUri('https://php-firebase-crud-f3d30-default-rtdb.firebaseio.com/');
+    ->withDatabaseUri('https://normal-project-480bd-default-rtdb.firebaseio.com/');
 
 $database = $factory->createDatabase();
